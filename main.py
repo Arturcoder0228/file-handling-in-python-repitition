@@ -25,3 +25,23 @@
 
 # talabalar = [talaba.rstrip() for talaba in talabalar]
 # print(talabalar)
+
+
+# filename = 'data/new_file.txt'
+# ism = 'Settarov Artur'
+# yosh = 2005
+# with open(filename, 'w') as filerite:
+
+#     filerite.write(ism+ '\n')
+#     filerite.write(str(yosh)+ '\n')
+    
+
+filename = 'data/new_file.txt'
+
+with open(filename, 'a') as filerite:
+
+    filerite.write('ali' + '\n')
+    filerite.write(str(2004)+ '\n')
+    
+
+
